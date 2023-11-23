@@ -1,0 +1,40 @@
+/* Styling for the keylock container */
+.keylock {
+	margin: auto;
+	height: 575px;
+	width: 500px;
+}
+
+/* Styling for the top part of the keylock */
+.top {
+	margin: auto;
+	margin-top: 25px;
+	height: 210px;
+	width: 30%;
+	border: 50px solid #3c4c5c;
+	border-top-right-radius: 240px;
+	border-top-left-radius: 240px;
+	border-bottom-style: none;
+}
+
+/* Styling for the bottom part of the keylock, representing the lock */
+.lock {
+	margin: auto;
+	margin-top: -35px;
+	height: 280px;
+	width: 70%;
+	border-radius: 50px;
+	background-color: #3c4c5c;
+}
+
+/* Styling for the inner part of the lock */
+.inside {
+	width: 75px;
+	height: 75px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 390px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
