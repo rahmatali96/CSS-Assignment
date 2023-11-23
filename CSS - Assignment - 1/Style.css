@@ -1,0 +1,73 @@
+/* Setting the overall styling for the body */
+body {
+	background-color: #D8DA3D;
+	color: #80007E;
+	font-family: Georgia, serif;
+}
+
+/* Styling for the main container */
+.main {
+	display: flex;
+	margin-top: 15px;
+}
+
+/* Styling for the left sidebar */
+.left {
+	width: 16%;
+	float: left;
+	margin-right: 25px;
+}
+
+.left ul {
+	margin-left: -40px;
+	list-style-type: none;
+}
+
+/* Styling for the span inside li elements in the left sidebar */
+.left ul li span {
+	background-color: black;
+	width: 17px;
+	height: 29px;
+	float: right;
+}
+
+/* Styling for list items in the left sidebar */
+.left ul li {
+	padding-left: 7px;
+	font: normal normal normal 16px/30px Georgia, serif;
+	width: 90%;
+	background-color: white;
+	margin-bottom: 7px;
+	height: 29px;
+}
+
+/* Styling for the right content area */
+.right {
+	width: 85%;
+}
+
+/* Styling for the content section */
+.content {
+	display: block;
+	margin-top: 10px;
+	line-height: 15px;
+}
+
+/* Styling for the h1 element within the content */
+.content h1 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for a specific paragraph element with the id "paragraph" */
+#paragraph {
+	line-height: 19px;
+}
+
+/* Styling for the horizontal rule (hr) */
+hr {
+	border: none;
+	margin-top: 50px;
+	border-top: 1px dotted #80007E;
+}
