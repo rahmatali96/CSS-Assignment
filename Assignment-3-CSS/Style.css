@@ -51,7 +51,7 @@ body {
   border-right: 10px solid #ffff73;
   border-top: 7px solid #ffff73;
   border-bottom: 7px solid #ffff73;
-  background-image: url("./background-image.jpg");
+  background-image: url(./background-image.jpg);
 }
 
 /* Paragraph styling within the banner detail */
