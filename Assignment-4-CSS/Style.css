@@ -1,0 +1,41 @@
+section{
+margin-top:40px;
+}
+.image-container1{
+border:1px solid black;
+}
+.image-container2{
+border:2px solid black;
+}
+.image1,.image2,.image3{
+	background-image: url(./Assignment4.png);	
+}
+.image1
+{
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+}
+/* css property for image2*/
+.image2{
+	margin-top:10px;
+	height: 270px;
+	width: 100%;
+	background-position: bottom;
+	background-size: cover;
+}
+/* css property for image3*/
+.image3
+{
+margin-left:30%;
+justify-content:center;
+   	height: 300px;
+	width: 500px;
+	background-repeat: no-repeat;
+
+}
+.image-text{	
+margin:4px 0px 2px 10px;
+font-size:18px;
+font-weight:bold;
+}
